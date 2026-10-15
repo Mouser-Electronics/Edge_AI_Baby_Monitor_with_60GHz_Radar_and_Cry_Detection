@@ -41,7 +41,7 @@ Open a serial terminal on the KitProg3 COM port at 115200 baud.
 
 - All changes are in `proj_cm55`; `proj_cm33_s` and `proj_cm33_ns` are used unmodified.
 - `audio-codec-tlv320dac3100/` and `mtb_shared/release-v2.0.0/` (XENSIV BGT60TRxx radar driver) are local driver copies used by the CM55 build.
-- `proj_cm55/lullaby_data.c` and `proj_cm55/welcome_sound_data.c` are pre-generated. To use different audio, install FFmpeg, replace the MP3 files in this folder, and run `python regen_audio_48k.py`.
+- **About the audio:** The song and welcome-chime MP3 files used in the article aren't included in this repository, out of respect for their distribution rights. You're welcome to use any audio you like: name your files `Children Piano.mp3` (song) and `welcome_sound.mp3` (welcome chime), place them in this folder, install FFmpeg, and run `python regen_audio_48k.py`. The script converts them into `proj_cm55/lullaby_data.c` and `proj_cm55/welcome_sound_data.c`.
 - The baby-cry model (`proj_cm55/ready_models`) is the DEEPCRAFT evaluation library from Infineon's [mtb-example-psoc-edge-ml-deepcraft-deploy-ready-model](https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-ready-model). Per Infineon, these Ready Models are intended for testing purposes and come with a limited number of inferences (Infineon lists a one-hour runtime for the Baby Cry model).
 - `superseded_not_in_build/` holds earlier approaches described in the article. They are **not** part of the build.
 
