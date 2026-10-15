@@ -2,7 +2,7 @@
 
 Building a Multi-Sensor Monitoring Platform on the Infineon Edge E84 (Mouser).
 
-This repository contains the complete, buildable source for an edge-AI baby-monitoring prototype based on the Infineon KIT_PSE84_AI development board. The system combines a local display interface, live camera preview, 60GHz radar-based motion detection, audio playback, and on-device baby-cry classification. It starts from Infineon's open-source PSOC_Edge_Graphics_LVGL_Demo, version 2.3.0 ([release-v2.3.0](https://github.com/Infineon/mtb-example-psoc-edge-gfx-lvgl-demo/tree/release-v2.3.0); original README: [README_base_demo.md](README_base_demo.md)). Version 2.6.x of the demo uses LVGL v9 and a different folder layout.
+This repository contains the complete, buildable source for an edge-AI baby-monitoring prototype based on the Infineon KIT_PSE84_AI development board. The system combines a local display interface, live camera preview, 60GHz radar-based motion detection, audio playback, and on-device baby-cry classification. It starts from Infineon's open-source PSOC_Edge_Graphics_LVGL_Demo, version 2.3.0 ([release-v2.3.0](https://github.com/Infineon/mtb-example-psoc-edge-gfx-lvgl-demo/tree/release-v2.3.0); original README: [README_base_demo.md](README_base_demo.md)). This project uses LVGL v9.2.0; version 2.6.x of the demo uses LVGL v9.5.0 and a different folder layout.
 
 > **Note:** This project is an engineering demonstration built on an evaluation platform. It is not a medical device. Its outputs have not been clinically validated and must not be used to determine whether an infant is breathing, present, or safe. The system does not replace caregiver supervision or established safe-sleep practices.
 
